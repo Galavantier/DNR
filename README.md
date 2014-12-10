@@ -36,7 +36,11 @@ Installation
 
 ```git clone git@github.com:Galavantier/DNR.git ./dnr```
 
-2.) Install the Script so that it is available on your command line. Note your bin directory may be different.
+2.) Make sure the Script has execute permissions
+
+```chmod +x ./dnr/dnr.sh```
+
+3.) Install the Script so that it is available on your command line. Note your bin directory may be different.
 
 ```ln -s ./dnr/dnr.sh ~/home/bin/dnr```
 
@@ -47,5 +51,6 @@ Usage
 Arguments:
 * pantheon_site_name : The machine name of the pantheon site
 * path_to_site_code_directory : The path to the code (relative to the current directory)
-* temp_directory (Optional) : The Directory where the backup files will be downloaded
+* temp_directory (Optional) : The Directory where the backup files will be downloaded.
+  * Note: By default the backup files will be downloaded in the current directory.
 * database_name (Optional) : Explicitly tell the script what database name to use instead of infering based on the site name. 
