@@ -54,3 +54,6 @@ Arguments:
 * temp_directory (Optional) : The Directory where the backup files will be downloaded.
   * Note: By default the backup files will be downloaded in the current directory.
 * database_name (Optional) : Explicitly tell the script what database name to use instead of infering based on the site name. 
+
+#### Note: The Script may ask you for your password for when it is unzipping the files folder.
+This is because it must unzip and change the permissions of the files folder with sudo.
