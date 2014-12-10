@@ -36,9 +36,9 @@ Installation
 
 ```git clone git@github.com:Galavantier/DNR.git ./dnr```
 
-2.) Install the Script so that it is available on your command line
+2.) Install the Script so that it is available on your command line. Note your bin directory may be different.
 
-```ln -s ./dnr/dnr.sh dnr```
+```ln -s ./dnr/dnr.sh ~/home/bin/dnr```
 
 Usage
 ====
