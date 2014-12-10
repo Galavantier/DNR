@@ -34,7 +34,7 @@ Installation
 ====
 1.) Clone the Repo
 
-```git clone https://github.com/Galavantier/DNR.git ./dnr```
+```git clone git@github.com:Galavantier/DNR.git ./dnr```
 
 2.) Install the Script so that it is available on your command line
 
