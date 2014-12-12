@@ -32,6 +32,8 @@ drush cc drush
 
 3.) Install Daterbase: https://github.com/Galavantier/daterbase
 
+---------------------------------------
+
 Installation
 ====
 1.) Clone the Repo
@@ -45,6 +47,8 @@ Installation
 3.) Install the Script so that it is available on your command line. Note your bin directory may be different.
 
 ```ln -s ./dnr/dnr.sh ~/home/bin/dnr```
+
+---------------------------------------
 
 Usage
 ====
