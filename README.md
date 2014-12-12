@@ -36,6 +36,8 @@ drush cc drush
 
 Installation
 ====
+
+####Mac
 1.) Clone the Repo
 
 ```git clone git@github.com:Galavantier/DNR.git ./dnr```
@@ -47,6 +49,29 @@ Installation
 3.) Install the Script so that it is available on your command line. Note your bin directory may be different.
 
 ```ln -s ./dnr/dnr.sh ~/home/bin/dnr```
+
+-----------------------------------------------
+
+####Ubuntu
+1.) Clone the Repo
+
+```git clone git@github.com:Galavantier/DNR.git ~/dnr```
+
+2.) Make sure the Script has execute permissions
+
+```chmod +x ~/dnr/dnr.sh```
+
+3.) Create a Bin directory in your Home folder if you do not already have one. See this for more details: https://help.ubuntu.com/community/HomeFolder
+
+```mkdir ~/bin```
+
+4.) Add the new Bin directory to your $PATH list, by adding this line into your /home/username/.bashrc file:
+
+```export PATH=$PATH:$HOME/bin```
+
+3.) Install the Script so that it is available on your command line.
+
+```ln -s ~/dnr/dnr.sh ~/bin/dnr```
 
 ---------------------------------------
 
