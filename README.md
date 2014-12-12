@@ -15,7 +15,7 @@ Here are the instructions reprinted for quick reference:
 
 ```curl -sS https://getcomposer.org/installer | php```
 
-```mv composer.phar /usr/local/bin/composer```
+```sudo mv composer.phar /usr/local/bin/composer```
 
 2.) Install Terminus:
 ```
